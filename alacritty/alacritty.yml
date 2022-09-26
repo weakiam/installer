@@ -1,0 +1,55 @@
+# Colors (Monokai Dark)
+colors:
+  # Default colors
+  primary:
+    background: '#161616'
+    foreground: '#ffffff'
+  cursor:
+    text:       CellBackground
+    cursor:     '#ffffff' # syntax-cursor-color
+  selection:
+    text:       CellForeground
+    background: '#e5e5e6' # syntax-selection-color
+  normal:
+    black:      '#696c77' # mono-2
+    red:        '#e45649' # red 1
+    green:      '#50a14f'
+    yellow:     '#c18401' # orange 2
+    blue:       '#4078f2'
+    magenta:    '#a626a4'
+    cyan:       '#0184bc'
+    white:      '#a0a1a7' # mono-3
+
+
+
+    
+
+  # # Normal colors
+  # normal:
+  #  black:   '#272822'
+  #  red:     '#f45474'
+  #  green:   '#A6E22E'
+  #  yellow:  '#F4BF75'
+  #  blue:    '#375571'
+  #  magenta: '#AE81FF'
+  #  cyan:    '#A1EFE4'
+  #  white:   '#F8F8F2'
+
+  # # Bright colors
+  # bright:
+  #  black:   '#75715E'
+  #  red:     '#F92672'
+  #  green:   '#A6E22E'
+  #  yellow:  '#F4BF75'
+  #  blue:    '#66D9EF'
+  #  magenta: '#AE81FF'
+  #  cyan:    '#A1EFE4'
+  #  white:   '#F9F8F5'
+
+ 
+window:
+
+ opacity: 0.95
+ padding:
+   x: 30
+   y: 30
