@@ -15,6 +15,7 @@ sudo dnf install @base-x i3-gaps @hardware-support sddm firefox alacritty timesh
 sudo systemctl enable sddm 
 sudo systemctl set-default graphical.target
 cd
+rm -r installer -y
 nitrogen ~/.config/i3/0272.jpg
 reboot
 #also, you need to install nvidia drivers. do that on rpm fusion. 
