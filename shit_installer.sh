@@ -1,3 +1,7 @@
+cd
+mkdir .config
+cd config
+
 mv -t ~/.config alacritty nvim i3 polybar rofi
 mv -t ~/ .bashrc .Xmodmap
 
@@ -12,3 +16,4 @@ sudo systemctl enable sddm
 sudo systemctl set-default graphical.target
 reboot
 #also, you need to install nvidia drivers. do that on rpm fusion. 
+
