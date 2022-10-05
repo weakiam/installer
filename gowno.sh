@@ -1,6 +1,6 @@
 cd
 mkdir .config
-cd config
+cd installer
 
 mv -t ~/.config alacritty nvim i3 polybar rofi
 mv -t ~/ .bashrc .Xmodmap
