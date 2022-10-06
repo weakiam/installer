@@ -76,5 +76,5 @@ mkdir Documents Downloads Pictures
 modinfo -F version nvidia
 modinfo -F version nvidia
 modinfo -F version nvidia
-reboot
+echo "If the console is displaying the Nvidia driver version, you can reboot the computer."
 
