@@ -8,7 +8,7 @@ echo "#####################################"
 echo "                                     "
 
 
-echo "                                     "
+
 
 echo "░░░░░░░░░░░█▀▀░░█░░░░░░"
 echo "░░░░░░▄▀▀▀▀░░░░░█▄▄░░░░"
@@ -22,6 +22,8 @@ echo "░░░█▄░░▀▄░░░░▄▀▐░█░░░░░"
 echo "░░░█▐▀▀▀░▀▀▀▀░░▐░█░░░░░"
 echo "░░▐█▐▄░░▀░░░░░░▐░█▄▄░░░"
 echo "░░░▀▀░░Nvidia░░▐▄▄▄▀░░░"
+
+echo "                                     "
 
 sleep 2
 echo "The Fedora post-installer for all your special needs."
