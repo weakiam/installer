@@ -13,11 +13,11 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 
 sudo dnf install akmod-nvidia -y
 
-sudo dnf install @base-x i3-gaps @hardware-support sddm -y
-
 sudo dnf groupupdate core -y
 
 sudo dnf groupupdate sound-and-video -y
+
+sudo dnf install @base-x i3-gaps @hardware-support sddm -y
 
 sudo dnf install firefox alacritty timeshift thunar xfce-polkit nitrogen arandr rofi vim neovim neofetch lxappearance breeze-gtk breeze-icon-theme adwaita-gtk2-theme.x86_64 brightnessctl polybar calibre xarchiver php gimp galculator compton geeqie -y
 
