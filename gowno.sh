@@ -8,7 +8,8 @@ echo "Sit back and wait till the post-install is done."
 sleep 2
 echo "Good to see you back capitan!"
 sleep 2 
-echo '"The ones who are crazy enough to think that they can change the world are the ones who do." - John McAfee'
+echo '"The ones who are crazy enough to think they can' 
+echo 'change the world are the ones who do." - John McAfee'
 
 
 sleep 5 
