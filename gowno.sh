@@ -30,5 +30,4 @@ cd .config/polybar
 sudo chmod a+x launch.sh
 cd
 reboot
-#also, you need to install nvidia drivers. do that on rpm fusion. 
 
