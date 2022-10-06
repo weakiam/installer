@@ -21,6 +21,7 @@ sudo dnf install akmod-nvidia -y
 
 sudo dnf install firefox alacritty timeshift thunar xfce-polkit nitrogen arandr rofi vim neovim neofetch lxappearance breeze-gtk breeze-icon-theme adwaita-gtk2-theme.x86_64 brightnessctl polybar calibre xarchiver php gimp galculator compton geeqie -y
 
+sudo dnf remove xorg-x11-drv-nvidia-power.x86_64 -y
 
 sudo systemctl enable sddm 
 sudo systemctl set-default graphical.target
