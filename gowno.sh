@@ -1,4 +1,15 @@
-echo "Welcome to Gówno. The fedora installer for all your special needs. Sit back and wait till the post-install is done. Good to see you back capitan!"
+echo "#####################################"
+echo "######XXX Welcome to Gówno! XXX######"
+echo "#####################################"
+sleep 2
+echo "The Fedora installer for all your special needs." 
+sleep 2
+echo "Sit back and wait till the post-install is done." 
+sleep 2
+echo "Good to see you back capitan!"
+sleep 2 
+echo '"The ones who are crazy enough to think that they can change the world are the ones who do. " - John McAfee'
+
 
 sleep 5 
 
