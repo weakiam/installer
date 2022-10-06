@@ -31,6 +31,10 @@ echo "                                     "
 sleep 2 
 echo '"The ones who are crazy enough to think they can' 
 echo 'change the world are the ones who do." - John McAfee'
+echo "                                     "
+echo "#####################################"
+echo "###########XXX ENGAGE! XXX###########"
+echo "#####################################"
 
 
 sleep 5 
