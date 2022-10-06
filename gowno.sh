@@ -29,5 +29,8 @@ cd
 cd .config/polybar
 sudo chmod a+x launch.sh
 cd
+modinfo -F version nvidia
+modinfo -F version nvidia
+modinfo -F version nvidia
 reboot
 
