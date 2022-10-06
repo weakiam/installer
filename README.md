@@ -1,2 +1,4 @@
-# home
-my config files for a fedora 36 installation. 
+# Instructions for gowno.sh:
+1. cd into installer.
+2. sudo chmod a+x gowno.sh
+3. ./gowno.sh
