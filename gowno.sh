@@ -1,3 +1,13 @@
+
+
+
+echo "                                     "
+echo "#####################################"
+echo "######XXX Welcome to Gówno! XXX######"
+echo "#####################################"
+echo "                                     "
+
+
 echo "                                     "
 
 echo "░░░░░░░░░░░█▀▀░░█░░░░░░"
@@ -13,12 +23,6 @@ echo "░░░█▐▀▀▀░▀▀▀▀░░▐░█░░░░░"
 echo "░░▐█▐▄░░▀░░░░░░▐░█▄▄░░░"
 echo "░░░▀▀░░Nvidia░░▐▄▄▄▀░░░"
 
-
-echo "                                     "
-echo "#####################################"
-echo "######XXX Welcome to Gówno! XXX######"
-echo "#####################################"
-echo "                                     "
 sleep 2
 echo "The Fedora post-installer for all your special needs."
 echo "                                     "
