@@ -20,7 +20,7 @@ echo "######XXX Welcome to Gówno! XXX######"
 echo "#####################################"
 echo "                                     "
 sleep 2
-echo "The Fedora installer for all your special needs."
+echo "The Fedora post-installer for all your special needs."
 echo "                                     "
 sleep 2
 echo "Sit back and wait till the post-install is done."
