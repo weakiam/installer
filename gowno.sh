@@ -1,3 +1,7 @@
+echo "Welcome to Gówno. The fedora installer for all your special needs. Sit back and wait till the post-install is done. Good to see you back capitan!"
+
+sleep 5 
+
 cd
 mkdir .config
 cd installer
