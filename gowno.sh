@@ -77,4 +77,5 @@ modinfo -F version nvidia
 modinfo -F version nvidia
 modinfo -F version nvidia
 echo "If the console is displaying the Nvidia driver version, you can reboot the computer."
+echo 'Otherwise type in "modinfo -F version nvidia"'
 
