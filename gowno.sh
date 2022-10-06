@@ -9,11 +9,11 @@ mv -t ~/ .bashrc .Xmodmap
 
 sudo dnf update -y
 
-sudo dnf install @base-x i3-gaps @hardware-support sddm -y
-
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 
 sudo dnf install akmod-nvidia -y
+
+sudo dnf install @base-x i3-gaps @hardware-support sddm -y
 
 sudo dnf groupupdate core -y
 
