@@ -62,14 +62,6 @@ echo "                                     "
 
 sleep 1
 
-cd
-mkdir .config
-cd installer
-
-mv -t ~/.config alacritty nvim i3 polybar rofi
-mv -t ~/ .bashrc .Xmodmap
-
-
 dnf update -y
 
 dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
@@ -80,9 +72,9 @@ dnf groupupdate core -y
 
 dnf groupupdate sound-and-video -y
 
-dnf install @base-x i3-gaps @hardware-support sddm -y
 
-dnf install firefox alacritty timeshift thunar xfce-polkit nitrogen arandr rofi vim neovim neofetch lxappearance breeze-gtk breeze-icon-theme adwaita-gtk2-theme.x86_64 brightnessctl polybar calibre xarchiver php gimp galculator compton geeqie -y
+
+dnf install @base-x i3-gaps @hardware-support sddm firefox alacritty timeshift thunar xfce-polkit nitrogen arandr rofi vim neovim neofetch lxappearance breeze-gtk breeze-icon-theme adwaita-gtk2-theme.x86_64 brightnessctl polybar calibre xarchiver php gimp galculator compton geeqie gnome-themes-extra codium pavucontrol htop thunar-archive-plugin network-manager-applet -y
 
 dnf remove xorg-x11-drv-nvidia-power.x86_64 -y
 
