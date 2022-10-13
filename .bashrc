@@ -31,7 +31,7 @@ unset rc
 
 alias xampp="sudo /opt/lampp/lampp start"
 alias xampps="sudo /opt/lampp/lampp stop"
-alias i3config="code .config/i3/config"
+alias i3config="codium .config/i3/config"
 alias v="nvim"
 
 
