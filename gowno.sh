@@ -74,7 +74,7 @@ dnf groupupdate sound-and-video -y
 
 
 
-dnf install @base-x i3-gaps @hardware-support sddm firefox alacritty timeshift thunar xfce-polkit nitrogen arandr rofi vim neovim neofetch lxappearance breeze-gtk breeze-icon-theme adwaita-gtk2-theme.x86_64 brightnessctl polybar calibre xarchiver php gimp galculator compton geeqie gnome-themes-extra codium pavucontrol htop thunar-archive-plugin network-manager-applet -y
+dnf install @base-x i3-gaps @hardware-support sddm NetworkManager-wifi firefox alacritty timeshift thunar xfce-polkit nitrogen arandr rofi vim neovim neofetch lxappearance breeze-gtk breeze-icon-theme adwaita-gtk2-theme.x86_64 brightnessctl polybar calibre xarchiver php gimp galculator compton geeqie gnome-themes-extra codium pavucontrol htop thunar-archive-plugin network-manager-applet -y
 
 dnf remove xorg-x11-drv-nvidia-power.x86_64 -y
 
